@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .menu-section {
+      background-color: #fffaf5;
+      padding: 3rem 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    .menu-item {
+      transition: transform 0.3s ease;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.03);
+    }
+
+    .menu-icon {
+      font-size: 1.5rem;
+      color: #a97f4f;
+      margin-right: 10px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-light">
+    <div class="container mt-3">
+        <div class="row">
+          <div class="col text-left">
+            <a href="index.html" class="btn btn-secondary">
+              ← Voltar para Início
+            </a>
+          </div>
+        </div>
+      </div>
+      
+  <div class="container mt-5">
+    <div class="menu-section text-center">
+      <h1 class="mb-4">🍽️ Nosso Cardápio</h1>
+      <ul class="list-group">
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+          <span><i class="menu-icon fas fa-drumstick-bite"></i>Feijoada Completa</span>
+          <strong>R$29,90</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+          <span><i class="menu-icon fas fa-cheese"></i>Frango à Parmegiana</span>
+          <strong>R$24,90</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+          <span><i class="menu-icon fas fa-fish"></i>Moqueca de Peixe</span>
+          <strong>R$27,50</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+          <span><i class="menu-icon fas fa-pepper-hot"></i>Escondidinho de Carne Seca</span>
+          <strong>R$22,00</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+            <span><i class="menu-icon fas fa-pepper-hot"></i>Strogonoff de Frango</span>
+            <strong>R$30,00</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+            <span><i class="menu-icon fas fa-pepper-hot"></i>Strogonoff de Carne</span>
+            <strong>R$45,50</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+            <span><i class="menu-icon fas fa-pepper-hot"></i>Iscas de Frango</span>
+            <strong>R$50,00</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+            <span><i class="menu-icon fas fa-pepper-hot"></i>Iscas de peixe</span>
+            <strong>R$65,99</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+            <span><i class="menu-icon fas fa-pepper-hot"></i>Arroz e feijão</span>
+            <strong>R$15,00</strong>
+        </li>
+        <li class="list-group-item menu-item d-flex align-items-center justify-content-between">
+            <span><i class="menu-icon fas fa-pepper-hot"></i>Espaguette</span>
+            <strong>R$10,50</strong>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <!-- Font Awesome para ícones -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    background-color: #d8a595;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .logo-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+
+.logo:hover {
+    transform: scale(1.05);
+}
+  
+  .btn-secondary {
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  header.jumbotron {
+    background-color: #020000; /* tom pastel claro */
+    color: #333;
+    text-align: center;
+    padding: 4rem 2rem;
+    border-bottom: 1px solid rgb(81, 49, 114);
+  }
+  
+  
+  header.jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* filtro escuro */
+    z-index: 0;
+  }
+  
+  header.jumbotron h1,
+  header.jumbotron p {
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn {
+    min-width: 140px;
+    margin-bottom: 0.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .parallax {
+    background-image: url('..logo/caderno.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f0cccc;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    padding: 4rem 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .parallax::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* filtro escuro */
+    z-index: 0;
+  }
+  
+  .parallax h1,
+  .parallax p {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }  
+
+  /* Ao focar no input */
+  .form-control:focus {
+    border-color: #a97f4f;
+    box-shadow: 0 0 8px rgba(169, 127, 79, 0.5);
+  }
+  
+  

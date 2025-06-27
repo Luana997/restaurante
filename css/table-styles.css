@@ -1,0 +1,8 @@
+.table th {
+    background-color: #f3e9d2;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #faf3ec;
+  }
+  
