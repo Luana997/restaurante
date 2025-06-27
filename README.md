@@ -22,6 +22,8 @@ Bootstrap 4 tem classes responsivas que adaptam o layout conforme o tamanho da t
     <div class="col-12 col-sm-12 col-lg-4">Seção 3</div>
   </div>
 </div>"
+
+Criado por Luana Ionta e Natasha Mendes.
 col-12: ocupa 100% da largura em celulares.
 col-sm-6: ocupa metade da linha em tablets.
 col-lg-4: ocupa 1/3 da linha em desktops grandes.
